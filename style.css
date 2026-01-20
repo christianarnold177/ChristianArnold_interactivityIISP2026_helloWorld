@@ -32,6 +32,6 @@ p{
  color:blue;
 }
 
-.rotate-element{
+#rotate-element{
  transform: rotate(90deg);
 }
