@@ -1,11 +1,11 @@
 .collage{
-
+  position: absolute;
 }
 
-#yellow{
-
+#green{
+  color: green
 }
 
 p{
-    
+ color:blue;
 }
