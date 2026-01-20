@@ -18,6 +18,7 @@ h1{
 
 h2{
   color: red;
+  transform: rotate(40deg);
 }
 
 h3{
