@@ -48,5 +48,7 @@ p{
 .center{
   position:absolute;
   left:50%;/*moving the element to the center of the screen*/
-  transform:translate(-50%,0);
+  top:50%;
+  transform:translate(-50%,-50%);
+  margin:0;
 }
