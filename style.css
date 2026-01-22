@@ -44,3 +44,9 @@ p{
   height:200px;
   background-color: aquamarine;
 }
+
+.center{
+  position:absolute;
+  left:50%;/*moving the element to the center of the screen*/
+  transform:translate(-50%,0);
+}
