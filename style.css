@@ -18,10 +18,6 @@ h1{
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  animation-name:changecolorBG;
-  animation-duration:1s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
 }
 
 h2{
@@ -42,10 +38,6 @@ h3{
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  animation-name:changecolorBG;
-  animation-duration:1s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
 }
 
 h4{
@@ -54,17 +46,12 @@ h4{
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  animation-name:changecolorBG;
-  animation-duration:1s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
 }
 
 @keyframes changecolorBG{
   from{background-color: darkcyan;}
   to{background-color: cyan;}
   to{background-color: lightcyan;}
-
 }
 
 p{
