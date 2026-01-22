@@ -55,13 +55,13 @@ h4{
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  animation-name:changeBG;
+  animation-name:changecolorBG;
   animation-duration:5s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
 
-@keyframes changeBG{
+@keyframes changecolorBG{
   from{background-color: darkcyan;}
   to{background-color: lightcyan}
 }
