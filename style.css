@@ -112,7 +112,7 @@ p{
   align-items: center;
 }
 
-summary:hover{
+h2:hover{
   color: gold;
   transform: rotate(3deg);
 }
