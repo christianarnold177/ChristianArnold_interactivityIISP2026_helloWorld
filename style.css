@@ -64,3 +64,12 @@ p{
   color:white;
   margin:20px;
 }
+
+.flex-container{
+  display:flex;
+  width:100vw;
+  background-color: lightsalmon;
+  height:500px;
+  justify-content: center;
+  align-items: center;
+}
