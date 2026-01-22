@@ -60,4 +60,7 @@ p{
 
 .display-exp div{
   flex:1;
+  padding:20px;
+  color:white;
+  margin:20px;
 }
