@@ -55,6 +55,7 @@ p{
 
 .display-exp{
   display:flex;
+  gap:20px;
 }
 
 .display-exp div{
