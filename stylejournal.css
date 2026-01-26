@@ -3,3 +3,10 @@
     height:auto;
     background-color: lightcoral;
 }
+
+.container{
+    position:relative;
+    width:100vw;
+    height:200px;
+    background-color: red;
+}
