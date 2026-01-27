@@ -72,6 +72,6 @@
     animation-direction: alternate;
 }
 
-h1:hover{
+.display:hover{
     color: white;
 }
