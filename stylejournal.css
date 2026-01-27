@@ -21,9 +21,10 @@
 
 .header-container{
     position:relative;
-    width:100vw;
+    width:30vw;
     height:80px;
     background-color: maroon;
+    left: 469px;
 }
 
 .display{
