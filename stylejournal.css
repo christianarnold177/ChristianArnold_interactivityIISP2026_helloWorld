@@ -26,6 +26,7 @@
     justify-content: space-evenly;
     gap: 20px;
     padding: 20px;
+    margin:auto;
     width: 90vw;
     height: 150px;
 }
@@ -34,6 +35,7 @@
     flex:1;
     padding: 20px;
     border-radius: 10px;
+    margin:auto;
     animation-name:changeBG;
     animation-duration:4s;
     animation-iteration-count: infinite;
@@ -58,10 +60,11 @@
 
 .poster-container{
     position:relative;
-    width:40vw;
-    height:100px;
+    width: 50vw;
+    height:45px;
     background-color: violet;
     border-radius:10px;
+    margin:auto;
     align-items: center;
     animation-name:changeBGposter;
     animation-duration:4s;
