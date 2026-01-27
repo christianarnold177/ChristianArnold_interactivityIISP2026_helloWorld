@@ -27,6 +27,21 @@
     left: 469px;
 }
 
+.p-container{
+    position:relative;
+    justify-content: center;
+    justify-content: space-evenly;
+    width:50vw;
+    height:65px;
+    background-color: red;
+    border-radius:10px;
+    align-items: center;
+    animation-name:changeBGp;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
 .display{
     display:flex;
     flex-direction:row;
@@ -64,6 +79,11 @@
 @keyframes changeBGposter{
     from{background-color: violet;}
     to{background-color: purple;}
+}
+
+@keyframes changeBGp{
+    from{background-color: lightblue;}
+    to{background-color: mediumturquoise;}
 }
 
 .poster-container{
