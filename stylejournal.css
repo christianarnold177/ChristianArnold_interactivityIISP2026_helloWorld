@@ -6,9 +6,12 @@
 
 .container{
     position:relative;
-    width:30vw;
+    justify-content: center;
+    justify-content: space-evenly;
+    width:40vw;
     height:160px;
     background-color: red;
+    border-radius:10px;
 }
 
 .display{
