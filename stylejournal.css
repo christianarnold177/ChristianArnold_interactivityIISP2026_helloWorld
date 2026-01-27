@@ -13,6 +13,10 @@
     background-color: red;
     border-radius:10px;
     align-items: center;
+    animation-name:changeBGlist;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 .display{
@@ -30,5 +34,19 @@
     flex:1;
     padding: 20px;
     border-radius: 10px;
+    animation-name:changeBG;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
+@keyframes changeBG{
+    from{background-color: mediumpurple;}
+    to{background-color: salmon;}
+    to{background-color: red;}
+}
+
+@keyframes changeBGlist{
+    from{background-color: red;}
+    to{background-color: hotpink;}
+}
